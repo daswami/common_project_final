@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel = "stylesheet" href= "css/style.css">
     <link rel = "stylesheet" href ="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="icon" type="image/x-icon" href="/images/rosie_sleeping.jpg">
+    <link rel="icon" type="image/x-icon" href="images/rosie_sleeping.jpg">
     <title>Pets</title>
 </head>
 <body>
@@ -296,6 +296,7 @@
             document.getElementById("answer-image").style.display = "block";
             if (q4Value === "option1" || q1Value === "option3") {
                 answer.innerHTML = "Unforunately you cannot commit the time or perform the activities necessary for any of these pets. Sorry :("
+                document.getElementById("answer-image").style.display = "none";
             }
             else if (q1Value === "option1") {
                 answer.innerHTML = "Cheeto!"
