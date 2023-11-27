@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url("/images/cheeto_carpet.jpg");
+    background-image: url("./images/cheeto_carpet.jpg");
   }
 
   .navbar li {
@@ -169,6 +169,10 @@
     justify-content: center;
   }
 
+  #answer-image {
+    display: none;
+  }
+
   .ans-image{
     display: flex;
     justify-content: center;
@@ -191,10 +195,6 @@
     border-radius: 0.5rem;
     padding : 5px;
 
-  }
-    
-  #answer-image {
-    display:none;
   }
 
   #no, #yes {
